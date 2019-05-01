@@ -6,9 +6,23 @@ spring:
     username: root
     password: 123456
     url: jdbc:mysql://106.15.189.14:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
-eureka:
-  client:
-    service-url:
-      defaultZone: http://106.15.189.14:8761/eureka/
+  rabbitmq:
+    host: 106.15.189.14
+    port: 5672
+    username: guest
+    password: guest
+  redis:
+    host: 106.15.189.14
+    port: 6379
 env:
   dev
+girl:
+  name: mo
+  age: 17
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic  
