@@ -14,7 +14,7 @@ spring:
     host: 106.15.189.14
     port: 6379
 env:
-  dev1
+  dev
 girl:
   name: mo
   age: 17
