@@ -10,18 +10,18 @@ spring:
     host: 106.15.189.14
 #     username: guest
 #     password: guest
-  redis:
-    host: 106.15.189.14
-    port: 6379
+#   redis:
+#     host: 106.15.189.14
+#     port: 6379
 env:
   dev
 girl:
   name: mo
   age: 17
-feign:
-  client:
-    config:
-      default:
-        connectTimeout: 5000
-        readTimeout: 5000
-        loggerLevel: basic  
+# feign:
+#   client:
+#     config:
+#       default:
+#         connectTimeout: 5000
+#         readTimeout: 5000
+#         loggerLevel: basic  
