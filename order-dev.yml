@@ -8,9 +8,8 @@ spring:
     url: jdbc:mysql://106.15.189.14:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
   rabbitmq:
     host: 106.15.189.14
-    port: 5672
-    username: guest
-    password: guest
+#     username: guest
+#     password: guest
   redis:
     host: 106.15.189.14
     port: 6379
